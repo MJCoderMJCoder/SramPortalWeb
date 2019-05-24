@@ -1,0 +1,16 @@
+	
+	public static void main(String[] args) {
+		Course course = new Course("", "", "", "", "", 
+				"");
+		Grade grade = new Grade("", course, "", "");
+		Teacher teacher = new Teacher("", "", "", "", "", "", "",
+				"", "", "", grade, "");
+//		System.out.println(new TeacherDao().addTeacher(teacher));
+//		System.out.println(new TeacherDao().deleteTeacher(teacher));
+//		System.out.println(new TeacherDao().updateTeacher(teacher));
+//		System.out.println(new TeacherDao().select(teacher).toString());
+		List<Teacher> list = new TeacherDao().queries(teacher);
+		for(Teacher s : list){
+			System.out.println(s.toString());
+		}
+	}

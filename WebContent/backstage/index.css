@@ -1,0 +1,11 @@
+@CHARSET "GBK";
+
+.formTable { /*两个登录表单的共同装饰*/
+	border: thin #c0c0c0 solid;
+}
+
+#copy {
+	text-align: center;
+	font-size: xx-small;
+	color: gray;
+}

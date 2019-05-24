@@ -1,0 +1,51 @@
+@CHARSET "GBK";
+/* CSS Document */
+#top { /*index.jsp顶部装饰：下边框，分割线*/
+	border-bottom-color: #c0c0c0;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+html, body, #iframe { /*index.jsp为了调整iframe的高度*/
+	height: 95%;
+}
+
+dt { /*导航栏中大项目装饰*/
+	cursor: pointer;
+}
+
+dt, dd { /*导航栏中大小项目装饰*/
+	white-space: nowrap;
+}
+
+dd a { /*导航栏中小项目的链接装饰*/
+	text-decoration: none;
+	display: block;
+	padding: 5px;
+	font-weight: bold;
+	color: gray;
+}
+
+a:HOVER { /*导航栏中小项目的链接装饰(当链接被激活时)*/
+	font-weight: bold;
+	color: black;
+	text-decoration: underline;
+}
+
+.queriesManagerIntro { /*queries公司简介详情*/
+	height: 40px;
+	overflow: hidden;
+	display: block;
+}
+
+table { /*queries公司简介的表格*/
+	border-collapse: collapse;
+}
+
+#managerImage { /*表单图片域：上传图片*/
+	width: 186px;
+}
+
+#managerPosition { /*表单列表域：员工职称*/
+	width: 154px;
+}

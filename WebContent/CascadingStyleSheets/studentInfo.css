@@ -1,0 +1,39 @@
+@CHARSET "GBK";
+
+#studentImage { /*表单图片域：上传图片*/
+	width: 179px;
+}
+
+#studentGrade { /*表单列表域：所教班级*/
+	width: 77px;
+}
+
+#gradeDetail { /*教师所教班级的更多详情*/
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-left-color: black;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: black;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: black;
+	border-top-style: solid;
+	border-top-width: 1px;
+	position: absolute;
+	width: 40%;
+	z-index: 1;
+	background-color: #fcfcfc;
+	left: 33%;
+	overflow: auto;
+	display: none;
+	height: 30%;
+	background-color: #fcfcfc;
+}
+
+#closeGradeDetail { /*关闭班级详情的按钮*/
+	cursor: pointer;
+	font-size: small;
+	font-weight: bolder;
+}

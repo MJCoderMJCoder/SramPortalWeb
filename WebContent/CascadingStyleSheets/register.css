@@ -1,0 +1,54 @@
+@CHARSET "GBK";
+
+body { /* 主体字体（有用户代理决定） */
+	font-family: sans-serif;
+	color: gray;
+	font-size: small;
+}
+
+.circle { /*register.jsp：顶部圆圈*/
+	width: 50px;
+	height: 50px;
+	background-color: #c0c0c0;
+	border-radius: 50%;
+	color: white;
+	font-size: xx-large;
+	font-weight: bolder;
+	z-index: 2;
+	position: relative;
+	text-align: center;
+	display: table;
+}
+
+.line { /*register.jsp：顶部圆圈*/
+	width: 325px;
+	height: 5px;
+	background-color: #c0c0c0;
+	z-index: 1;
+	position: relative;
+	top: -25px;
+	left: 50px;
+}
+
+.process { /*register.jsp：顶部圆圈内的数字：流程步骤*/
+	color: #a7a7a7;
+	font-size: small;
+	font-weight: bolder;
+}
+
+#studentImage { /*表单图片域：上传图片*/
+	width: 177px;
+}
+
+#stuGrade { /*表单列表域：员工职称*/
+	width: 173px;
+}
+
+#randImage { /*验证码装饰*/
+	cursor: pointer;
+}
+
+#olLi { /*注册完成最后的温馨提示装饰*/
+	font-weight: bolder;
+	font-size: small;
+}

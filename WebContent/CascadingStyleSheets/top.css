@@ -1,0 +1,29 @@
+@CHARSET "GBK";
+
+#search { /*搜索框*/
+	width: 530px;
+	height: 25px;
+}
+
+#home, #collect, #topLogin, #studentInfo, #studentExit {
+	text-decoration: underline;
+}
+
+td img, #home, #collect, #topLogin, #studentInfo, #studentExit {
+	cursor: pointer;
+}
+
+#topLogin:HOVER { /*顶部的登陆装饰*/
+	font-weight: bold;
+	color: black;
+}
+
+#studentInfo:HOVER { /*顶部的学员信息装饰*/
+	font-weight: bolder;
+	color: black;
+}
+
+#studentExit:HOVER { /*顶部的学员信息装饰*/
+	font-weight: bolder;
+	color: black;
+}

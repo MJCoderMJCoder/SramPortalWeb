@@ -1,0 +1,19 @@
+@CHARSET "GBK";
+
+#bottom, a { /*µ×²¿*/
+	background-image: url("../images/bottomBg.jpg");
+	text-decoration: none;
+	color: #7d7d7d;
+}
+
+table a:HOVER { /*µ×²¿¶¯Ì¬*/
+	color: black;
+}
+
+#copy {
+	font-size: small;
+}
+
+#bottom th {
+	font-size: medium;
+}
